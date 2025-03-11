@@ -1,0 +1,107 @@
+body{
+    font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.logo-main{
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    height: 75px;
+    width: auto;
+}
+.nav-main{
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-main-item{
+    padding: 0px 5px;
+    margin: 0px 10px;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serach-bar{
+    height: 30px;
+    width: 200px;
+    border-radius: 9px;
+    box-shadow: inset 0px 0px 9px rgba(107, 105, 105, 0.703);
+    border: none;
+}
+
+.cart-btn{
+    height: 30px;
+    width: 30px;
+    border-radius: 9px;
+    box-shadow: inset 0px 0px 9px rgba(107, 105, 105, 0.703);
+    border: none;
+}
+.sign-up-btn{
+    height: 30px;
+    width: 30px;
+    border-radius: 9px;
+    box-shadow: inset 0px 0px 9px rgba(107, 105, 105, 0.703);
+    border: none;
+}
+.page-1-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+}
+.page-1-1-heading > h1{
+    font-size: 13vh;
+}
+.page-1-1-btn {
+    display: flex;
+    justify-content: center;
+}
+.page-1-1-btn > button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+.carousel-item > img{
+    height: 500px;
+}
+.banner{
+    height: 100px;
+    width: 100%;
+    box-shadow: inset 5px 5px 5px 5px whitesmoke;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    background-color: darkolivegreen;
+    /* background-image: url(pictures/banner/aniket-deole-M6XC789HLe8-unsplash.jpg);
+    background-size: cover;
+    background-size: 100% 100%; */
+}
+.banner > .banner-1{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner > .banner-1 > h1{
+    color: whitesmoke;
+    line-height: 100px;
+}
+.banner > .banner-1 > h1 > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+ 
+ .fotr{
+    background-color: darkolivegreen;
+ }
+  
+  
+  
+  
